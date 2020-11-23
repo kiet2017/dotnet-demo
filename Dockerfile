@@ -4,8 +4,6 @@ RUN yum -y install libicu
 RUN yum -y install dotnet-sdk-2.1
 RUN yum -y install openssh-clients
 
-RUN  sudo curl https://raw.githubusercontent.com/stulzq/awesome-dotnetcore-image/master/install/centos7.sh|sh
-
 RUN mkdir -p /src
 RUN mkdir -p /dotnetdemo
 COPY ["socket.csproj","/src"]
