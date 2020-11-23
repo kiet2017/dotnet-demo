@@ -15,7 +15,7 @@ namespace socket
   class Program
     {
         private static byte[] result = new byte[1024];
-        private static int myProt = 5678;   //?port
+        private static int myProt = 30868;   //?port
         static Socket serverSocket;
         static void Main(string[] args)
         {
